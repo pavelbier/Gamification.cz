@@ -1,0 +1,45 @@
+html { margin: 20px }
+body {
+  margin: 0 auto;
+  font-family: 'Baskerville', Georgia, Times, serif;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px;
+  max-width: 720px;
+
+}
+header, footer, section, article {
+	display: block;
+}
+
+.date {
+  font-style: italic;
+  float: right;
+  line-height: 43px;
+  margin-right: 30px;
+}
+a {
+  color: #b83000;
+}
+h1 a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+code {
+  font-family: 'Anonymous Pro', 'Bitstream Vera Sans', 'Monaco', Courier, mono;
+}
+pre {
+  padding: 20px;
+}
+blockquote {
+  font-style: italic;
+}
+
+body > h1 {
+  padding-bottom:40px;
+  font-size:320%;
+  display:block;
+}
