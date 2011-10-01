@@ -39,9 +39,12 @@ blockquote {
 }
 
 body > h1 {
-  padding-bottom:30px;
+  padding:0 0 30px;
   font-size:320%;
   display:block;
+	line-height:1;
+	margin:0;
+	
 }
 .post {
 	margin-bottom:30px;
