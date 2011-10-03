@@ -64,18 +64,18 @@ body > h1 {
 
 @media screen and (max-device-width: 720px) {
   body > h1 {
-    font-size:240%;
+    font-size:200%;
   }
 
   h2 {
-    font-size:160%;
+    font-size:170%;
   }
 
 }
 
 @media screen and (max-device-width: 480px) {
   body > h1 {
-    font-size:200%;
+    font-size:170%;
   }
 
   h2 {
