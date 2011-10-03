@@ -62,6 +62,17 @@ body > h1 {
   text-align:center;
 }
 
+@media screen and (max-device-width: 720px) {
+  body > h1 {
+    font-size:240%;
+  }
+
+  h2 {
+    font-size:160%;
+  }
+
+}
+
 @media screen and (max-device-width: 480px) {
   body > h1 {
     font-size:200%;
