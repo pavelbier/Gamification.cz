@@ -53,3 +53,11 @@ body > h1 {
 .post p {
   margin:3px 0;
 }
+
+.post h2 {
+  margin:20px 0 10px;
+}
+
+.back {
+  text-align:center;
+}
