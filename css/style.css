@@ -63,6 +63,10 @@ body > h1 {
 }
 
 @media screen and (max-device-width: 720px) {
+  body {
+    padding: 10px
+  }
+
   body > h1 {
     font-size:200%;
   }
@@ -74,6 +78,10 @@ body > h1 {
 }
 
 @media screen and (max-device-width: 480px) {
+  body {
+    padding: 5px
+  }
+
   body > h1 {
     font-size:170%;
   }
