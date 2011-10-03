@@ -1,11 +1,12 @@
 ---
 layout: default
+title: zajímavosti ze světa gamification
 ---
 
 {% for post in site.posts limit:5 %}
 <div class="post">
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{{ post.content | truncate: 200 }}
-	<div><em>Posted on {{ post.date | date: "%d.%m.%Y" }}.</em></div>	
+	<div><em>Vydáno {{ post.date | date: "%d.%m.%Y" }}.</em></div>	
 </div>
 {% endfor %}
