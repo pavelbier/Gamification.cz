@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: Jak je na tom Gamification s efektivitou? Zajímavá data a případové studie
+category: news
 ---
 
 <p>Pěkně provedená prezentace o tom, že gamification není "badgification" a "pointsification". Dozvíte se proč gamification funguje, jaké mechanismy využívá, zda může být vždy využita a co vás může při nasazení zaskočit a to i s příklady využití gamification s daty před a po nasazení. Na závěr vás čekají úvahy nad celým pojmem gamification a jeho budoucností.</p>

@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html itemscope itemtype="http://schema.org/Article">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
 	<title>{{ page.title }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, user-scalable=no">
+	<meta name="HandheldFriendly" content="true" />
+
+	<meta itemprop="name" content="{{page.title}}">
+	<meta itemprop="description" content="{{page.description}}">
+	<meta itemprop="image" content="http://gamification.cz/img/">
+
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://www.gamification.cz/atom.xml" />
+
 	<link rel="stylesheet" media="screen" href="/css/style.css" >
 	<script type="text/javascript">
 
@@ -24,11 +32,7 @@
 <body>
 <h1>{{ page.title }}</h1>
 <div id="pages">
-	{{ content }}
-	
-	<div id="disqus_thread"></div>
-	<script type="text/javascript" src="http://disqus.com/forums/gamificationcz/embed.js"> </script>	
-	
+	{{ content }}	
 </div>
 </body>
 </html>

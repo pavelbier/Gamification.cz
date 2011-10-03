@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: Nový web o Gamification
+category: news
 ---
 <p>Na tomto novém webu se pokusím přinést pozoruhodné novinky, zprávy a následně i vlastní články o pojmu &ldquo;gamification&rdquo;. Jsme stále v &ldquo;beta&rdquo; fázi.
 Pro začátek mrkněte na inspirativní video od Jane McGonigal na téma &ldquo;Gaming can make a better world&rdquo;</p>
