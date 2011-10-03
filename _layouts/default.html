@@ -3,15 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
-	<title>{{ page.title }}</title>
+	<title>Gamification.cz - {{ page.title }}</title>
+	<meta name="author" content="Gamification.cz" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, user-scalable=no">
 	<meta name="HandheldFriendly" content="true" />
 
 	<meta itemprop="name" content="{{page.title}}">
 	<meta itemprop="description" content="{{page.description}}">
-	<meta itemprop="image" content="http://gamification.cz/img/">
+	<meta itemprop="image" content="http://gamification.cz/img/g.png">
 
-	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://www.gamification.cz/atom.xml" />
+	<link href="http://feeds.feedburner.com/Gamificationcz" rel="alternate" title="RSS" type="application/rss+xml" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://gamification.cz/atom.xml" />
 
 	<link rel="stylesheet" media="screen" href="/css/style.css" >
 	<script type="text/javascript">
@@ -30,7 +32,7 @@
 </head>
 
 <body>
-<h1>{{ page.title }}</h1>
+<h1>Gamification.cz</h1>
 <div id="pages">
 	{{ content }}	
 </div>

@@ -7,6 +7,6 @@ title: Gamification.cz
 <div class="post">
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{{ post.content | truncate: 150 }}
-	<p><em>Posted on {{ post.date | date_to_long_string }}.</em></p>	
+	<div><em>Posted on {{ post.date | date_to_long_string }}.</em></div>	
 </div>
 {% endfor %}
