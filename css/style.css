@@ -81,10 +81,10 @@ body > h1 {
 }
 
 a {
-  -webkit-transition: all 0.15s ease-out; 
-  -o-transition: all 0.15s ease-out; 
-  -moz-transition: all 0.15s ease-out; 
-  transition: all 0.15s ease-out;   
+  -webkit-transition: all 0.315s ease-out; 
+  -o-transition: all 0.315s ease-out; 
+  -moz-transition: all 0.315s ease-out; 
+  transition: all 0.315s ease-out;   
 }
 
 
