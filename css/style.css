@@ -44,6 +44,13 @@ body > h1 {
   display:block;
 	line-height:1;
 	margin:0;
+
+  text-shadow: 2px 2px 3px #CCCCCC;
+  -moz-transform: scale(1) rotate(5deg) translate(0px, 0px) skew(0deg, 0deg);
+  -webkit-transform: scale(1) rotate(5deg) translate(0px, 0px) skew(0deg, 0deg);
+  -o-transform: scale(1) rotate(5deg) translate(0px, 0px) skew(0deg, 0deg);
+  -ms-transform: scale(1) rotate(5deg) translate(0px, 0px) skew(0deg, 0deg);
+  transform: scale(1) rotate(5deg) translate(0px, 0px) skew(0deg, 0deg);  
 	
 }
 .post {
