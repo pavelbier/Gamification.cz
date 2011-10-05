@@ -3,13 +3,11 @@ layout: default
 title: zajímavosti ze světa gamification
 ---
 
-{% for post in site.posts limit:5 %}
+{% for post in paginator.posts %}
 <div class="post">
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{{ post.content }}
 	<div><em>Vydáno {{ post.date | date: "%d.%m.%Y" }}.</em></div>	
 </div>
-
-{{paginator}}
 
 {% endfor %}
