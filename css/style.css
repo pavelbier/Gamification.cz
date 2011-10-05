@@ -6,6 +6,7 @@ body {
   line-height: 30px;
   padding: 15px;
   max-width: 720px;
+  position:relative;
 
 }
 header, footer, section, article {
@@ -64,6 +65,32 @@ body > h1 {
 
 .back {
   text-align:center;
+}
+
+#panel {
+  position:absolute;
+  right:10px;
+  top:5px;
+}
+
+#panel a {
+  float:right;
+  width:50px;
+  height:50px;
+  margin-left:10px;
+  position: relative;
+  overflow:hidden;
+}
+
+#twitter span, #rss span {
+  background:url('/img/twitter.png') left top no-repeat;
+  position: absolute;
+  left:0;
+  top:0;
+}
+
+#rss span {
+  background:url('/img/rss.png') left top no-repeat;
 }
 
 @media screen and (max-device-width: 720px) {
