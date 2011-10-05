@@ -75,25 +75,24 @@ body > h1 {
 
 #panel a {
   float:right;  
-  margin-left:10px;
+  margin-left:0px;
   position: relative;
   overflow:hidden;
-}
-
-#panel a, #twitter span, #rss span {
   width:50px;
   height:50px;
-}
-
-#twitter span, #rss span {
   background:url('/img/twitter.png') left top no-repeat;
-  position: absolute;
-  left:0;
-  top:0;
 }
 
-#rss span {
+#panel .text {
+  display:none;
+}
+
+#rss {
   background:url('/img/rss.png') left top no-repeat;
+}
+
+#panel a span {
+  display:none;
 }
 
 @media screen and (max-device-width: 720px) {
