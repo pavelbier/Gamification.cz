@@ -69,17 +69,20 @@ body > h1 {
 
 #panel {
   position:absolute;
-  right:10px;
-  top:5px;
+  right:0;
+  top:0;
 }
 
 #panel a {
-  float:right;
-  width:50px;
-  height:50px;
+  float:right;  
   margin-left:10px;
   position: relative;
   overflow:hidden;
+}
+
+#panel a, #twitter span, #rss span {
+  width:50px;
+  height:50px;
 }
 
 #twitter span, #rss span {
