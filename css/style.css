@@ -60,6 +60,21 @@ body > h1 {
 }
 .post {
 	margin-bottom:50px;
+
+  background-image: linear-gradient(right top, rgb(249,249,249) 0%, rgb(255,255,255) 52%);
+  background-image: -o-linear-gradient(right top, rgb(249,249,249) 0%, rgb(255,255,255) 52%);
+  background-image: -moz-linear-gradient(right top, rgb(249,249,249) 0%, rgb(255,255,255) 52%);
+  background-image: -webkit-linear-gradient(right top, rgb(249,249,249) 0%, rgb(255,255,255) 52%);
+  background-image: -ms-linear-gradient(right top, rgb(249,249,249) 0%, rgb(255,255,255) 52%);
+
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    color-stop(0, rgb(249,249,249)),
+    color-stop(0.52, rgb(255,255,255))
+  );
+  
 }
 
 .post p {
