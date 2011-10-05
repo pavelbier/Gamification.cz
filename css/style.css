@@ -87,7 +87,7 @@ body > h1 {
   display:none;
 }
 
-#rss {
+#panel #rss {
   background:url('/img/rss.png') left top no-repeat;
 }
 
