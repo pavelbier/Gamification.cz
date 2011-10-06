@@ -1,12 +1,12 @@
 html { margin: 0px; background:#f9f9f9; }
 
 @font-face {
-    font-family: '../font/BebasNeueRegularRegular';
-    src: url('../font/BebasNeueRegular-webfont.eot');
-    src: url('../font/BebasNeueRegular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/BebasNeueRegular-webfont.woff') format('woff'),
-         url('../font/BebasNeueRegular-webfont.ttf') format('truetype'),
-         url('../font/BebasNeueRegular-webfont.svg#BebasNeueRegularRegular') format('svg');
+    font-family: 'BebasNeueRegular';
+    src: url('../font/BebasNeue-webfont.eot');
+    src: url('../font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BebasNeue-webfont.woff') format('woff'),
+         url('../font/BebasNeue-webfont.ttf') format('truetype'),
+         url('../font/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
