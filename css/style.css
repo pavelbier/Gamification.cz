@@ -74,6 +74,7 @@ body > h1 {
 
 .post p {
   margin:3px 0;  
+  text-align:justify;
 }
 
 h2 {
