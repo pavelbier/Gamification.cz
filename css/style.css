@@ -1,4 +1,7 @@
 html { margin: 0px; background:#f9f9f9; }
+
+@font-face { font-family: 'BebasNeue'; src: url('../otf/BebasNeue.otf'); } @font-face { font-family: 'BebasNeue'; font-weight: bold; src: url('../otf/BebasNeue.otf'); }
+
 body {
   margin: 0 auto;
   font-family: 'Baskerville','Palatino', Georgia, Times, serif;
@@ -61,6 +64,7 @@ body > h1 {
   text-shadow: 2px 2px 3px #CCCCCC;
   letter-spacing: 0.05em;
  
+  font-family:'BebasNeue','Baskerville','Palatino', Georgia, Times, serif;
 	
 }
 .post {
