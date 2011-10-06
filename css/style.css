@@ -76,10 +76,11 @@ body > h1 {
   margin:3px 0;  
 }
 
-.post h2 {
-  margin:20px 0;
+h2 {
+  margin:8px 0;
   font-size:200%;
   font-family:'BebasNeue','Baskerville','Palatino', Georgia, Times, serif;
+  line-height:1;
 }
 
 .back {
@@ -130,7 +131,8 @@ a {
 
 @media screen and (max-device-width: 720px) {
   body {
-    padding: 10px
+    padding: 20px;
+  font-size: 17px;
   }
 
   body > h1 {
@@ -138,7 +140,7 @@ a {
   }
 
   h2 {
-    font-size:170%;
+    font-size:160%;
   }
 
   #panel {
@@ -149,7 +151,8 @@ a {
 
 @media screen and (max-device-width: 480px) {
   body {
-    padding: 5px
+    padding: 15px;
+    font-size: 15px;
   }
 
   body > h1 {
@@ -157,7 +160,7 @@ a {
   }
 
   h2 {
-    font-size:150%;
+    font-size:140%;
   }
 
   #panel {
