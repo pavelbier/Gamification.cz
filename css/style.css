@@ -6,7 +6,7 @@ body {
   margin: 0 auto;
   font-family: 'Baskerville','Palatino', Georgia, Times, serif;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.7;
   padding: 45px;
   max-width: 720px;
   position:relative;
@@ -80,6 +80,7 @@ h2 {
   margin:8px 0;
   font-size:200%;
   font-family:'BebasNeue','Baskerville','Palatino', Georgia, Times, serif;  
+  line-height:1.2;
 }
 
 .back {
