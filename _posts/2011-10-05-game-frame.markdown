@@ -5,7 +5,7 @@ category: news
 tag: kniha
 ---
 
-<p><a href="http://aarondignan.com/">Aaron Dignan</a> je člověk, na kterého byste rozhodně měli zaměřit svou pozornost. Před necelým půlrokem měl v New Yorku tuto skvělou přednášku "Why the future of work is play".</p>
+<p><a href="http://aarondignan.com/">Aaron Dignan</a> je člověk, na kterého byste rozhodně měli zaměřit svou pozornost. Před necelým půlrokem měl v New Yorku  skvělou přednášku pojmenovanou "Why the future of work is play".</p>
 
 <object width="400" height="267"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=23167866&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=23167866&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00adef&amp;fullscreen=1&amp;autoplay=0&amp;loop=0" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="267"></embed></object><p><a href="http://vimeo.com/23167866">PSFK CONFERENCE NYC 2011: Aaron Dignan</a> from <a href="http://vimeo.com/psfk">Piers Fawkes</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 
