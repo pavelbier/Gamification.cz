@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Místo na výstupy se zaměřujte na jejich hodnoty
+title: Místo na výstupy se zaměřte na jejich hodnoty
 category: news
 ---
 
