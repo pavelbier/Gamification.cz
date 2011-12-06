@@ -140,6 +140,31 @@ a {
   display:none;
 }
 
+.tweet {
+  float:right;
+  width:200px;
+  margin:0 0 20px 10px;
+  font-size:60%;
+  border-radius:15px;
+  box-shadow:inset 0 0 10px #cdcdcd;
+}
+
+.tweet  li {
+  display:block;
+  list-style:none;
+  margin-bottom:1em;
+}
+
+.tweet .tweet_list {
+  margin:0;
+  padding:1em;
+}
+
+.tweet .tweet_avatar {
+  float:left;
+  margin:0 0.5em 0.1em 0;
+}
+
 @media screen and (max-device-width: 720px) {
   body {
     padding: 20px;
@@ -159,6 +184,12 @@ a {
   #panel {
     position:relative;top:0;left:0;
   }
+
+  .tweet {
+    display:none;
+  }
+
+
 
 }
 
@@ -191,6 +222,10 @@ a {
     -moz-box-shadow: none;
     box-shadow: none;
 
+  }
+
+  .tweet {
+    display:none;
   }
 
 }
