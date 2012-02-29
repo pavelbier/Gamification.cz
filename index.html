@@ -14,29 +14,31 @@ title: zajímavosti ze světa gamification
 
 
 {% if paginator.total_pages > 1 %}
-  <nav id="pagination">    
+  <nav id="pagination" class="pagination">
+    <ul>        
     {% if paginator.previous_page > 1 %}
-      {% capture page_url %}page{{ page }}{% endcapture%}
+      <li>{% capture page_url %}page{{ page }}{% endcapture%}</li>
     {% endif %}
     {% if paginator.previous_page %}      
-      <a href="/{{ page_url }}" title="Na předchozí stranu">
+      <li class="prev"><a href="/{{ page_url }}" title="Na předchozí stranu">
         &laquo;
-      </a>      
+      </a></li>
     {% endif %}      
     {% for page in (1..paginator.total_pages) %}      
       {% if page > 1 %}
-        {% capture page_url %}page{{ page }}{% endcapture%}
+        <li>{% capture page_url %}page{{ page }}{% endcapture%}</li>
       {% endif %}
       {% if page == paginator.page %}
-        {{ page }}
+        <li class="active">{{ page }}</li>
       {% else %}
-        <a href="/{{ page_url }}">{{ page }}</a>
+        <li><a href="/{{ page_url }}">{{ page }}</a></li>
       {% endif %}
     {% endfor %}
     {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}" title="Na následující stranu">
+      <li class="next"><a href="/page{{ paginator.next_page }}" title="Na následující stranu">
         &raquo;
-      </a>      
+      </a></li>
     {% endif %}
+    </ul>
   </nav>
 {% endif %}
