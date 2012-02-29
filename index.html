@@ -18,14 +18,14 @@ title: zajímavosti ze světa gamification
     {% if paginator.previous_page %}
     <li class="previous">
       {% if paginator.previous_page == 1 %}
-      <a href="/">Previous</a>
+      <a href="/">Předchozí</a>
       {% else %}
-      <a href="/page{{paginator.previous_page}}">Previous</a>
+      <a href="/page{{paginator.previous_page}}">Předchozí</a>
       {% endif %}
     </li>
     {% else %}
     <li class="previous disabled">
-      <span>Previous</span>
+      <span><a href="#">Předchozí</a></span>
     </li>
     {% endif %}
 
@@ -49,11 +49,11 @@ title: zajímavosti ze světa gamification
 
     {% if paginator.next_page %}
     <li class="next">
-      <a href="/page{{paginator.next_page}}">Next</a>
+      <a href="/page{{paginator.next_page}}">Následující</a>
     </li>
     {% else %}
     <li class="next disabled">
-      <span><a href="#">Next</a></span>
+      <span><a href="#">Následující</a></span>
     </li>
     {% endif %}
 
