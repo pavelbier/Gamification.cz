@@ -29,7 +29,7 @@ title: zajímavosti ze světa gamification
         <li>{% capture page_url %}page{{ page }}{% endcapture%}</li>
       {% endif %}
       {% if page == paginator.page %}
-        <li class="active">{{ page }}</li>
+        <li class="active"><a href="#">{{ page }}</a></li>
       {% else %}
         <li><a href="/{{ page_url }}">{{ page }}</a></li>
       {% endif %}
