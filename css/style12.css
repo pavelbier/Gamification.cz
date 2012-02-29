@@ -44,9 +44,11 @@ a {
   float:right;
   width:200px;
   margin:0 0 20px 10px;
-  font-size:60%;
-  border-radius:15px;
-  box-shadow:inset 0 0 10px #cdcdcd;
+  font-size:12px;
+  font-size:0.71rem;
+  /*border-radius:15px;
+  box-shadow:inset 0 0 10px #cdcdcd;*/
+
   overflow:hidden;
 }
 
@@ -54,6 +56,7 @@ a {
   display:block;
   list-style:none;
   margin-bottom:1em;
+  min-height:36px;
 }
 
 .tweet .tweet_list {
@@ -64,4 +67,8 @@ a {
 .tweet .tweet_avatar {
   float:left;
   margin:0 0.5em 0.1em 0;
+}
+
+.post {
+  margin-bottom:2rem;
 }
