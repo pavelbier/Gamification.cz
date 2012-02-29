@@ -1,0 +1,67 @@
+#panel {
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+
+a {
+  -webkit-transition: all 0.315s ease-out; 
+  -o-transition: all 0.315s ease-out; 
+  -moz-transition: all 0.315s ease-out; 
+  transition: all 0.315s ease-out;   
+}
+
+
+#panel a {
+  float:right;  
+  margin-left:0px;
+  position: relative;
+  overflow:hidden;
+  width:50px;
+  height:50px;
+  background:url('/img/twitter.png') left top no-repeat;
+  opacity:0.25;
+  outline: 0;
+}
+
+#panel a:hover, #panel a:focus, #panel a:active {
+  opacity:1;
+}
+
+#panel .text {
+  display:none;
+}
+
+#panel #rss {
+  background:url('/img/rss.png') left top no-repeat;
+}
+
+#panel a span {
+  display:none;
+}
+
+.tweet {
+  float:right;
+  width:200px;
+  margin:0 0 20px 10px;
+  font-size:60%;
+  border-radius:15px;
+  box-shadow:inset 0 0 10px #cdcdcd;
+  overflow:hidden;
+}
+
+.tweet  li {
+  display:block;
+  list-style:none;
+  margin-bottom:1em;
+}
+
+.tweet .tweet_list {
+  margin:0;
+  padding:1em;
+}
+
+.tweet .tweet_avatar {
+  float:left;
+  margin:0 0.5em 0.1em 0;
+}
