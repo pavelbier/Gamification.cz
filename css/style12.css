@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../font/BebasNeue-webfont.eot');
+    src: url('../font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BebasNeue-webfont.woff') format('woff'),
+         url('../font/BebasNeue-webfont.ttf') format('truetype'),
+         url('../font/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.page-header > h1 {
+  font-size:2rem;
+  margin:0;
+
+  text-shadow: 2px 2px 3px #CCCCCC;
+  letter-spacing: 0.05em;
+ 
+  font-family:'BebasNeueRegular','Baskerville','Palatino', Georgia, Times, serif;
+  
+}
+
 #panel {
   position:absolute;
   right:10px;
