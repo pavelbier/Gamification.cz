@@ -95,3 +95,22 @@ a {
 .post {
   margin-bottom:2rem;
 }
+
+
+@media (max-width: 480px) { 
+  .page-header > h1 {
+    font-size:2rem;
+  }
+}
+
+@media (max-width: 768px) { 
+  .page-header > h1 {
+    font-size:3.5rem;
+  }
+}
+ 
+@media (min-width: 768px) and (max-width: 980px) {
+  .page-header > h1 {
+    font-size:5rem;
+  }
+}
