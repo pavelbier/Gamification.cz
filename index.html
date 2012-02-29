@@ -13,32 +13,50 @@ title: zajímavosti ze světa gamification
 {% endfor %}
 
 
-{% if paginator.total_pages > 1 %}
-  <nav id="pagination" class="pagination">
-    <ul>        
-    {% if paginator.previous_page > 1 %}
-      <li>{% capture page_url %}page{{ page }}{% endcapture%}</li>
+<nav id="post-pagination" class="pagination">
+
+  {% if paginator.previous_page %}
+  <p class="previous">
+    {% if paginator.previous_page == 1 %}
+    <a href="/">Previous</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">Previous</a>
     {% endif %}
-    {% if paginator.previous_page %}      
-      <li class="prev"><a href="/{{ page_url }}" title="Na předchozí stranu">
-        &laquo;
-      </a></li>
-    {% endif %}      
-    {% for page in (1..paginator.total_pages) %}      
-      {% if page > 1 %}
-        <li>{% capture page_url %}page{{ page }}{% endcapture%}</li>
-      {% endif %}
-      {% if page == paginator.page %}
-        <li class="active"><a href="#">{{ page }}</a></li>
+  </p>
+  {% else %}
+  <p class="previous disabled">
+    <span>Previous</span>
+  </p>
+  {% endif %}
+
+  <ul class="pages">
+    <li class="page">
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
       {% else %}
-        <li><a href="/{{ page_url }}">{{ page }}</a></li>
+      <a href="/">1</a>
       {% endif %}
+    </li>
+
+    {% for count in (2..paginator.total_pages) %}
+    <li class="page">
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    </li>
     {% endfor %}
-    {% if paginator.next_page %}
-      <li class="next"><a href="/page{{ paginator.next_page }}" title="Na následující stranu">
-        &raquo;
-      </a></li>
-    {% endif %}
-    </ul>
-  </nav>
-{% endif %}
+  </ul>
+
+  {% if paginator.next_page %}
+  <p class="next">
+    <a href="/page{{paginator.next_page}}">Next</a>
+  </p>
+  {% else %}
+  <p class="next disabled">
+    <span>Next</span>
+  </p>
+  {% endif %}
+
+</nav>
