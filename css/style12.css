@@ -99,7 +99,7 @@ a {
 
 @media (max-width: 480px) { 
   .page-header > h1 {
-    font-size:2rem;
+    font-size:1rem;
   }
 }
 
