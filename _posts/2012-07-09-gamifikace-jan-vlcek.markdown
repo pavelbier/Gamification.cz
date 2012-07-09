@@ -8,6 +8,6 @@ category: news
 <div id="video_barcamp_brno_2012"></div>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-$('#video_barcamp_brno_2012').html('<iframe width="800" height="600" src="http://www.superlectures.com/barcampbrno2012/embed.php?id=26" frameborder="0" allowfullscreen></iframe>');
+$('#video_barcamp_brno_2012').html('<iframe width="800" height="600" src="http://www.superlectures.com/barcampbrno2012/embed.php?id=6" frameborder="0" allowfullscreen></iframe>');
 //--><!]]>
 </script>
